@@ -1,0 +1,16 @@
+{
+  "name": "monobrow-todomvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "monobrow -c monobrow.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "todomvc-app-css": "^2.0.6"
+  },
+  "keywords": [],
+  "author": "joshwnj",
+  "license": "MIT"
+}
