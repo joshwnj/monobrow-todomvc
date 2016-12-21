@@ -17,7 +17,7 @@
     "babel-preset-react": "^6.16.0",
     "babelify": "^7.3.0",
     "classnames": "^2.2.5",
-    "monobrow": "git://github.com/joshwnj/monobrow.git#2.0",
+    "monobrow": "^2.0.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-redux": "^5.0.1",
