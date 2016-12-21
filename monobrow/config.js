@@ -1,23 +1,10 @@
 const babelify = require('babelify')
+const path = require('path')
 
-const browserDeps = [
-  'classnames',
-  'react',
-  'react-dom',
-  'redux',
-  'react-redux'
-]
-
-function build () {
-  var browserify = require('browserify')
-  var b = browserify()
-
-  browserDeps.forEach(b.require.bind(b))
-  return b.bundle()
-}
+const browserDeps = require('./deps').modules
 
 function setup (b, opts) {
-  browserDeps.forEach(b.external.bind(b))
+  b.external(browserDeps)
 
   b.transform(babelify, {
     plugins: [
