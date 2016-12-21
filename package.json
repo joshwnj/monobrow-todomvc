@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "monobrow -c monobrow.config.js",
+    "build": "monobrow -c monobrow/config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
