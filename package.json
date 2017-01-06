@@ -10,25 +10,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "babel-plugin-transform-class-properties": "^6.19.0",
-    "babel-plugin-transform-object-rest-spread": "^6.20.2",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-es2016": "^6.16.0",
-    "babel-preset-es2017": "^6.16.0",
-    "babel-preset-latest": "^6.16.0",
-    "babel-preset-react": "^6.16.0",
-    "babelify": "^7.3.0",
-    "classnames": "^2.2.5",
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1",
-    "react-redux": "^5.0.1",
-    "redux": "^3.6.0",
     "todomvc-app-css": "^2.0.6"
   },
   "keywords": [],
   "author": "joshwnj",
   "license": "MIT",
   "devDependencies": {
-    "monobrow": "^2.2.0"
+    "monobrow": "^2.2.0",
+    "monobrow-react-pack": "^1.0.1"
   }
 }

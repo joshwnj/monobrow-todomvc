@@ -3,5 +3,7 @@ module.exports = {
   output: {
     dir: 'build'
   },
-  packs: [ require('./pack') ]
+  packs: [
+    require('monobrow-react-pack')
+  ]
 }
