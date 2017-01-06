@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-deps": "monobrow -c monobrow/deps.js",
+    "build-deps": "monobrow -c monobrow/pack.js",
     "build-app": "monobrow -c monobrow/config.js",
     "build": "npm run build-deps && npm run build-app",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,7 +19,6 @@
     "babel-preset-react": "^6.16.0",
     "babelify": "^7.3.0",
     "classnames": "^2.2.5",
-    "monobrow": "^2.0.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-redux": "^5.0.1",
@@ -28,5 +27,8 @@
   },
   "keywords": [],
   "author": "joshwnj",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "monobrow": "^2.2.0"
+  }
 }
