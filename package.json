@@ -14,7 +14,7 @@
   "author": "joshwnj",
   "license": "MIT",
   "devDependencies": {
-    "monobrow": "^2.5.0",
-    "monobrow-react-pack": "^1.4.0"
+    "monobrow": "^2.6.1",
+    "monobrow-react-pack": "^1.5.0"
   }
 }
